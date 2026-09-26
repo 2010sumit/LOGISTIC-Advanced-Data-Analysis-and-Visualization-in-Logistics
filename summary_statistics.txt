@@ -1,0 +1,16 @@
+LOGISTICS NETWORK SIMULATION - STATISTICAL SUMMARY
+Author: SUMIT KUMAR (SUMIT277203YT@GMAIL.COM | 9120329201)
+
+DESCRIPTIVE STATISTICS:
+                               Mean    Median     Mode       Variance     Std Dev     Min      Max       IQR  Skewness  Kurtosis
+Shipment_Volume_m3         27.43512    28.090     6.14     180.661199   13.441027    5.23    49.68   23.1700 -0.025549 -1.255452
+Distance_km               748.82960   734.145  1209.15  171367.391899  413.965448   56.72  1499.59  720.9950  0.104485 -1.194901
+Transportation_Cost_USD  1141.03008  1140.715  1379.67  253846.567887  503.831885  203.06  2108.28  873.2025  0.100507 -1.161280
+Delivery_Time_Hours        19.05462    18.860    11.70      51.692886    7.189776    5.38    46.63   10.9050  0.416651  0.000530
+
+PEARSON CORRELATION MATRIX:
+                         Shipment_Volume_m3  Distance_km  Transportation_Cost_USD  Delivery_Time_Hours
+Shipment_Volume_m3                 1.000000     0.010354                 0.135394             0.030516
+Distance_km                        0.010354     1.000000                 0.988270             0.871717
+Transportation_Cost_USD            0.135394     0.988270                 1.000000             0.864086
+Delivery_Time_Hours                0.030516     0.871717                 0.864086             1.000000
